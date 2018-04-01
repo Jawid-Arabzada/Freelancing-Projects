@@ -1,0 +1,144 @@
+
+    body {
+      line-height: 1;
+      margin: 200px;
+	  margin-top: 20px;
+	 
+    }
+    div {
+      background: rgba(0, 0, 0, .1);
+      border-radius: 5px;
+      box-sizing: border-box;
+      padding: 20px;
+      width: 500px;
+    }
+    header {
+      overflow: clear;
+      position: relative;
+    }
+    h2 {
+      font-family: 'PT Sans Narrow', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      margin: 0 0 10px;
+      text-align: center;
+    }
+    button {
+      position: absolute;
+      top: -4px;
+    }
+    button:first-child {
+      left: 0;
+    }
+    button:last-child {
+      right: 0;
+    }
+    table {
+      background: #fff;
+      border-collapse: collapse;
+      color: #222;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 13px;
+      width: 100%;
+	  height:100%;
+    }
+    td {
+
+      border: 1px solid #ccc;
+      color: #444;
+      line-height: 22px;
+      text-align: center;
+	  	background-image: url("index.jpe");
+        background-repeat: repeat-y;
+		
+    }
+	
+    tr:first-child td {
+      color: #222;
+      font-weight: 700;
+    }
+    .selected {
+      background: #f0951d;
+ 
+    }
+	#size
+	{
+	 background-color:grey;
+    color:white;
+    text-align:center;
+    padding:5px;
+	width:50%;
+	height:400px;
+	}
+	h2
+	{
+	padding:10px;
+	}
+	
+	
+	th 
+	{
+	
+	border:1px solid;
+	background-color:silver;
+
+	}
+	tbody td:hover
+    {
+    background-color:#00ffff;
+    }
+	
+	
+    background-color:red;
+    }
+	.td
+	{
+	height:60px;
+	width:80px;
+	text-align:left;
+	padding-left:10px;
+	
+	}
+	.td1{
+		text-align:left;
+	}
+	.para{
+	color:white;
+	background-color:grey;
+	padding:20px;
+	width:90%;
+	text-align:center;
+	
+	}
+	.img
+	{
+	margin-left:550px;
+	position:relative;
+	left:0px;
+	width:50%;
+	height:100%;
+	
+	}
+span.dropt {border-bottom: thin dotted; background: #ffeedd;}
+span.dropt:hover {text-decoration: none; background: #ffffff; z-index: 6; }
+span.dropt span {position: absolute; left: -9999px;
+  margin: 20px 0 0 0px; padding: 3px 3px 3px 3px;
+  border-style:solid; border-color:black; border-width:1px; z-index: 6;}
+span.dropt:hover span {left: 2%; background: #ffffff;} 
+span.dropt span {position: absolute; left: -9999px;
+  margin: 4px 0 0 0px; padding: 3px 3px 3px 3px; 
+  border-style:solid; border-color:black; border-width:1px;}
+span.dropt:hover span {margin: 20px 0 0 170px; background: #ffffff; z-index:6;}
+textarea{
+background-color:#f0951d;
+}
+.imgtbl{
+	
+	position: relative;
+	left: 750px;
+	bottom: 600px;
+	
+	margin-bottom:0px;
+	padding:0px;
+	
+}
